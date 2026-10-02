@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Avisos Faculdade</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <h1>Avisos Faculdade</h1>
+
+        <button id="sair">Sair</button>
+    </header>
+
+    <main class="dashboard">
+
+        <div class="boas-vindas">
+            <h2>Bem-vindo!</h2>
+            <p id="usuarioEmail"></p>
+        </div>
+
+        <section class="avisos-section">
+            <div class="section-header">
+                <h2>Últimos avisos</h2>
+
+                <button id="novoAviso">
+                    + Novo aviso
+                </button>
+            </div>
+
+            <div id="listaAvisos">
+                <p>Carregando avisos...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>

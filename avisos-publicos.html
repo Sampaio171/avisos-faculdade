@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avisos da Faculdade</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <h1>Avisos da Faculdade</h1>
+
+        <a href="index.html">
+            Área administrativa
+        </a>
+    </header>
+
+    <main class="dashboard">
+
+        <div class="boas-vindas">
+            <h2>📢 Avisos</h2>
+            <p>Confira os últimos avisos publicados para a turma.</p>
+        </div>
+
+        <section class="avisos-section">
+
+            <div class="section-header">
+                <h2>Últimos avisos</h2>
+            </div>
+
+            <div id="listaAvisos">
+                <p>Carregando avisos...</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/avisos-publicos.js"></script>
+
+</body>
+
+</html>
